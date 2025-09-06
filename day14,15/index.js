@@ -71,17 +71,40 @@
 
 //--------------------object letral
 
-let person={
-    names:"jagades",
-    age:20,
-    skill:['javs','manager','server']
+// let person={
+//     names:"jagades",
+//     age:20,
+//     skill:['javs','manager','server']
 
-}
-console.log(person)
-person.skill.map(x=>console.log(x))
+// }
+// console.log(person)
+// person.skill.map(x=>console.log(x))
 
 
 // accessing data in object
 // 1.notation 
 // 2.[]
 
+// let persons = new Object({
+//     names:"jaga"
+// })
+// console.log(persons)
+
+
+//-----------------------------function constration
+// function person(name,age){
+//     this.name=name,
+//     this.age=age 
+// }
+
+// let person1=new person ("jaga",33)
+// console.log(person1)
+// let person2=new person ("dddd",44)
+// person2.gender="mail"
+// console.log(person2)
+
+
+//-------------sprit the method
+let string="hgdbfhjwbv";
+let string2=[...string]
+console.log(string);
