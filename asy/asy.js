@@ -44,3 +44,4 @@ data.catch((value)=>{
     console.log(value);
     
 })
+
